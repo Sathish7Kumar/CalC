@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:dimgray
+}
+.container{
+  max-width: 500px;
+  margin: 5vh auto 0 auto;
+}
+#output{
+  background-color: rgb(174, 174, 177);
+  height: 100px;
+  line-height: 80px;
+  text-align: left;
+  padding: 10px 8px;
+  font-size: 30px;
+  border: 2px solid black;
+  overflow-y: hidden;
+}
+.buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button{
+  border: 2px solid black;
+  background-color: rgb(150, 175, 113);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 80px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: rgb(201, 214, 143);
+  color: rgb(219, 40, 40);
+  transition: 0.33s ease-in-out;
+}
+#equal{
+  background-color: forestgreen;
+  color: black;
+  font-size: 65px;
+}
